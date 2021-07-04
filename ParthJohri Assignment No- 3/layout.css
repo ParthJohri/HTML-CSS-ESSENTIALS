@@ -1,0 +1,78 @@
+/* body {
+    margin: 0px;
+} */
+
+
+/* "*" is a Universal Selector */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.parentflex {
+    /* height: 100px; */
+    /* If the parent element do not have any height then it is automatically set by ele element */
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* justify works for the main element
+align works for the cross element
+row - x axis main/y axis cross
+column - y axis main/x axis cross */
+
+.eleflex {
+    height: 200px;
+    width: 15%;
+    /* margin-left: 4%; */
+    background-color: red;
+    /* display: inline-block; */
+    /* Percentage is always related to my parent */
+}
+
+.parentdisp {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+.eledisp {
+    height: 200px;
+    width: 20%;
+    background-color: gray;
+    margin-left: 4%;
+    display: inline-block;
+}
+
+
+/* DAY 3 CLASS NOTES
+.one {
+    height: 300px;
+    width: 300px;
+    background-color: palevioletred;
+    padding: 50px;
+    border: 20px solid black;
+    margin: 50px;
+    box-sizing: border-box;
+    display: inline-block;
+} */
+
+
+/* 
+.two {
+    height: 300px;
+    width: 300px;
+    padding:50px;
+    margin: 50px;
+    background-color: rgba(250, 3, 217, 0.253);
+    border: 20px solid black;
+    display: inline-block;
+} */
