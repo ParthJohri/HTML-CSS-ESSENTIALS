@@ -32,6 +32,8 @@ html {
     justify-content: center;
     position: fixed;
     color: white;
+    text-align: center;
+    z-index: 2;
 }
 
 .container {
@@ -79,10 +81,12 @@ html {
 .nav-item:hover {
     color: azure;
     background-color: rgb(255, 166, 0.3);
+    
 }
 
 .header_container {
     justify-content: space-between;
+    
 }
 
 .banner {
@@ -169,10 +173,13 @@ html {
     display: flex;
     overflow: hidden;
 }
+.service_img:hover {
+    opacity: 0.6;
+}
 
 .service_details {
     height: 400px;
-    width: 40%;
+    width: 50%;
     /* background-color: darkgreen; */
     display: flex;
     align-items: center;
@@ -192,9 +199,9 @@ html {
     padding-right: 05px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 17px;
+    font-size: 118%;
     font-weight: bold;
-    background-color: rgb(255, 166, 0, 0.5);
+    background-color: rgba(124, 83, 7, 0.5);
     font-family: Segoe UI, Tahoma, Geneva, Verdana, sans;
     background: transparent;
     color: white;
@@ -205,10 +212,12 @@ html {
 
 .service_title {
     margin-top: 10px;
+    
 }
 
 .service_desc {
     margin-top: 30px;
+    line-height: 2;
 }
 
 .ourteam {
